@@ -1,0 +1,32 @@
+.titre{
+    text-align: center;
+    text-shadow: 5px 5px 5px purple;
+}
+.para{
+    border: 1px solid black;
+    height: 100px;
+    border-radius: 10px ;
+}
+.but{
+    margin-top: 15px;
+}
+.icone{
+    display: inline;
+    float: right;
+    font-size: 15px;
+    color: purple;
+}
+.manage{
+    margin-top: 15px;
+}
+#ss{
+    width: 400px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#liste{
+    margin-top: 10px;
+}
+li span{
+    padding: 5px 300px 5px 10px;
+}

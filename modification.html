@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/modification.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="titre col-lg-12"><h1>My first to do App</h1></div>  
+            <div class="para col-lg-12" contenteditable id="add"></div>  
+            <div class="but col-lg-8 offset-lg-2">
+                <button id="add_task" class="btn btn-success btn-block"  type="button">Add new Talk</button>
+             </div>
+            <div class="manage">
+                <nav class="navbar navbar-light bg-light">
+                      <a class="navbar-brand">Manage your Tasks</a>
+                      <form class="d-flex">
+                        <input class="form-control me-2" id="ss" type="search" placeholder="Search your task" aria-label="Search">                   
+                       </form>
+                  </nav>
+                </div>
+                <div id="liste">
+                    <ul class="list-group" id="ul">
+                        <li class="list-group-item">
+                            <span contenteditable >Task number 1</span>
+                            <div class="icone"><i class="fas fa-trash-alt"></i>
+                            <i class="fas fa-user-edit"></i>
+                        </div></li>
+                        <li class="list-group-item">
+                            <span contenteditable>Task number 2</span>
+                            <div class="icone"><i class="fas fa-trash-alt"></i>
+                            <i class="fas fa-user-edit"></i>
+                        </div></li>
+                        <li class="list-group-item">
+                            <span contenteditable>Task number 3</span>
+                            <div class="icone"><i class="fas fa-trash-alt"></i>
+                            <i class="fas fa-user-edit"></i>
+                        </div></li>
+                        <li class="list-group-item">
+                            <span contenteditable>Task number 4</span>
+                            <div class="icone"><i class="fas fa-trash-alt"></i>
+                            <i class="fas fa-user-edit"></i>
+                        </div></li>
+                        <li class="list-group-item">
+                            <span contenteditable>Task number 5</span>
+                            <div class="icone"><i class="fas fa-trash-alt"></i>
+                            <i class="fas fa-user-edit"></i>
+                        </div></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    <div>
+</body>
+<script src="js/modification.js"></script>
+</html>
